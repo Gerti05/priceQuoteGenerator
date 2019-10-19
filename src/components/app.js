@@ -17,11 +17,11 @@ function App(props) {
     return (
       <div>
         <BrowserRouter>
-        <div>
-          <SelectorBtn />
-          <Route path="/" exact component={ServicesForm} />
-        </div>
-      </BrowserRouter>
+          <div>
+            <SelectorBtn />
+            <Route path="/" exact component={ServicesForm} />
+          </div>
+        </BrowserRouter>
       </div>
     );
   }

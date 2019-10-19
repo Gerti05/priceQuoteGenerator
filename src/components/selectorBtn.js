@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const SelectorBtn = props => {
+const SelectorBtn = () => {
   return (
     <div>
       <div
@@ -10,14 +10,12 @@ const SelectorBtn = props => {
         aria-label="Toolbar with button groups"
       >
         <div className="btn-group mr-2" role="group" aria-label="First group">
-        <Link className="navbar-brand" to="/">
-          
-        <button type="button" className="btn btn-primary">
-            1
-          </button>
+          <Link className="navbar-brand" to="/">
+            <button type="button" className="btn btn-primary">
+              1
+            </button>
           </Link>
-        
-          
+
           <button type="button" className="btn btn-primary">
             2
           </button>
